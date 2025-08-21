@@ -12,6 +12,7 @@ LABEL org.opencontainers.image.ref.name=hostinfo
 LABEL org.opencontainers.image.version=1.0.0
 LABEL org.opencontainers.image.authors=rx-m
 LABEL org.opencontainers.image.url=https://rx-m.com
+LABEL MAINTAINERS sameet.nasnodkar@gmail.com
 USER 1000:1000
 EXPOSE 9898
 ENTRYPOINT [ "/hi" ]
